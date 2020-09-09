@@ -1,0 +1,54 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy:github": "npm run clean && npm run build && node ./scripts/deploy-github",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
+    "bootstrap": "^4.5.1",
+    "gatsby": "^2.24.26",
+    "gatsby-plugin-manifest": "^2.4.27",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gh-pages": "^3.1.0",
+    "hover.css": "^2.3.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.3.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-hexgrid": "^1.0.3",
+    "react-minimal-pie-chart": "^8.0.1",
+    "react-particles-js": "^3.3.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.1",
+    "react-text-loop": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.1.1"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
