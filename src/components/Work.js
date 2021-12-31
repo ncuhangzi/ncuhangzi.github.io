@@ -24,25 +24,16 @@ export default class Work extends Component {
                         <Nav.Link eventKey="first">
                           {" "}
                           <div>
-                            <img src={require("../../static/northrop.jpg")}></img>
-                            <p>NORTHROP GRUMMAN</p>
+                            <img src={require("../../static/LINE_Logo.jpeg")}></img>
+                            <p>LINE Taiwan</p>
                           </div>
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">
                           <div>
-                            <img src={require("../../static/arl.png")}></img>
-                            <p>APPLIED RESERACH LABS</p>
-                          </div>
-                        </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">
-                          {" "}
-                          <div>
-                            <img src={require("../../static/oden-black.png")} />
-                            <p>ODEN INSTITUTE</p>
+                            <img src={require("../../static/NCULogo.png")}></img>
+                            <p>National Central University</p>
                           </div>
                         </Nav.Link>
                       </Nav.Item>
@@ -53,18 +44,18 @@ export default class Work extends Component {
                       <Tab.Pane eventKey="first">
                         <p className="descriptions">
                           <ul>
-                            <li className="outer"><strong className="position">Software Engineer &amp; PM Intern @ Northrop Grumman</strong> </li>
-                            <li className="outer"><FontAwesomeIcon icon={faCalendarAlt} /> &nbsp; June 2020 - August 2020 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faSearchLocation} /> &nbsp; Rolling Meadows, Illinois</li>
+                            <li className="outer"><strong className="position">Technical Assistant Intern @ LINE Taiwan</strong> </li>
+                            <li className="outer"><FontAwesomeIcon icon={faCalendarAlt} /> &nbsp; July 2019 - July 2020 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faSearchLocation} /> &nbsp; Taipei, Taiwan</li>
                             <li className="outer">
                               <ul>
                                 <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Developed a full-stack web application on ASP.NET Core for asset management and tracking for the Integrated Data Operations Group (IDO)</p></div>
+                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Responsible for development of front-end functions of the customer loyalty project “LINE GAME University,’’ a system with over 100,000 users</p></div>
                                 </li>
                                 <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Utilized C# and SQL Server on backend with Entity Framework Core using a standard MVC architecture</p></div>
+                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Updated the game servers with a version control system (SVN) and wrote shell scripts for automated updates</p></div>
                                 </li>
                                 <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Fully designed and prototyped UI/UX on Figma and created interactive client-side pages with the Blazor Framework (C#, HTML/CSS) </p></div>
+                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Designed chatbot templates for marketing campaigns with JSON</p></div>
                                 </li>
                               </ul>
                             </li>
@@ -74,45 +65,25 @@ export default class Work extends Component {
                       <Tab.Pane eventKey="second">
                         <p className="descriptions">
                           <ul>
-                            <li className="outer"><strong className="position">Software Engineer Intern @ ARL</strong> </li>
-                            <li className="outer"><FontAwesomeIcon icon={faCalendarAlt} /> &nbsp; September 2019 - February 2020 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faSearchLocation} /> &nbsp; Austin, Texas</li>
+                            <li className="outer"><strong className="position">Research Assistant @ NCU</strong> </li>
+                            <li className="outer"><FontAwesomeIcon icon={faCalendarAlt} /> &nbsp; September 2020 - present &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faSearchLocation} /> &nbsp; Taoyuan, Taiwan</li>
                             <li className="outer">
                               <ul>
                                 <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Worked in the Space and Geophysics Laboratory (SGL) on testing data acqusition scripts for GPS satellites</p></div>
+                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Worked in Professor Hu's LAB, responsible for calculating similarities for finding restaraunt with good bargain by google users reviews</p></div>
                                 </li>
                                 <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Developed and tested scripts in C and Python using static and dynamic testing within a Linux environment</p></div>
+                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Proposed a new framework for personal outfit recommendation system, based on Bayesian Personal Ranking algorithm</p></div>
                                 </li>
                                 <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Overhauled testing infrastructure to transition from CUnit towards Robot Testing Framework for acceptance testing </p></div>
+                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Prepared teaching materials for AI related python packages</p></div>
                                 </li>
                               </ul>
                             </li>
                           </ul>
                         </p>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p className="descriptions">
-                          <ul>
-                            <li className="outer"><strong className="position">Reseach Intern @ Oden Institute</strong> </li>
-                            <li className="outer"><FontAwesomeIcon icon={faCalendarAlt} /> &nbsp; June 2019 - August 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<FontAwesomeIcon icon={faSearchLocation} /> &nbsp; Austin, Texas</li>
-                            <li className="outer">
-                              <ul>
-                                <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Researched deep learning and its application for computational fluid mechanics as a Moncrief Fellow</p></div>
-                                </li>
-                                <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Applied novel neural network architectures (ODE-nets) and normalizing flow models to characterize turbulent pipe flow dynamics </p></div>
-                                </li>
-                                <li className="inner">
-                                  <div> <FontAwesomeIcon icon={faAngleRight} /> <p>Created Jupyter Notebook and MATLAB demos, while using the OpenFOAM toolbox to obtain simulation data </p></div>
-                                </li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </p>
-                      </Tab.Pane>
+
                     </Tab.Content>
                   </Col>
                 </Row>

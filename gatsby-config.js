@@ -4,6 +4,8 @@ module.exports = {
     description: "Fan-Chi Yeh is an aspiring data scientist and HCI enthusiastic currently studying Information Management at the National Central University.",
     author: "Fan-Chi Yeh",
   },
+  //https://github.com/ncuhangzi/ncuhangzi.github.io.git
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

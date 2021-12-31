@@ -8,10 +8,10 @@ export default class SideBar extends Component {
     render() {
         return (
             <ButtonGroup vertical>
-                <a href="https://www.linkedin.com/in/cphillips17" target="_blank"> <FontAwesomeIcon icon={faLinkedinIn} size="lg"/> </a>
-                <a href="https://github.com/cphillips17" target="_blank">< FontAwesomeIcon icon={faGithub} size="lg"/> </a>
-                <a href="mailto:colinphillips@utexas.edu" target="_blank">< FontAwesomeIcon icon={faInbox} size="lg"/> </a>
-                <a href="https://www.facebook.com/colin.phillips.75641" target="_blank">< FontAwesomeIcon icon={faFacebook} size="lg"/> </a>
+                <a href="https://www.linkedin.com/in/fan-chi-yeh-a5652b141" target="_blank"> <FontAwesomeIcon icon={faLinkedinIn} size="lg"/> </a>
+                <a href="https://github.com/ncuhangzi" target="_blank">< FontAwesomeIcon icon={faGithub} size="lg"/> </a>
+                <a href="mailto:st30201@gmail.com" target="_blank">< FontAwesomeIcon icon={faInbox} size="lg"/> </a>
+                <a href="https://www.facebook.com/profile.php?id=100000054322114" target="_blank">< FontAwesomeIcon icon={faFacebook} size="lg"/> </a>
                 <div class="vertical-line"></div>
             </ButtonGroup>
         )

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {faNodeJs, faReact, faPython, faJava} from "@fortawesome/free-brands-svg-icons";
+import {faNodeJs, faReact, faPython, faJava, faVuejs, faSketch} from "@fortawesome/free-brands-svg-icons";
 import { faInbox } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Fade from "react-reveal/Fade";
@@ -13,22 +13,19 @@ export default class About extends Component {
             <h1>ABOUT</h1>
             <div className="about-content">
               <p>
-                Hello! I'm an aspiring engineer currently studying in Austin, TX.
+                Hi! I'm currently studying in Taoyuan, Taiwan.
             </p>
               <p>
-                I love trying my hand in new things, whether it be in human-centered A.I. or website development. My goal is to combine my
-                passions for humanitarian work and technology to make an impact on
-              international communities.{" "}
+                I always enjoy trying new things and embracing new technologies, whether it be in human-centered A.I. or website development. Therefore, developing applications 
+                that can benefit our daily lives has gradually become my ambition and dream.
               </p>
               <p>
-                I've previously held three internships in full-stack engineering
-                and ML research. I've made it a point to have breadth in my
-                professional experiences and now I'm hoping to bring all these
-                skills together this summer in an analytics-facing Product
-                Management or Data Science role.
+                I've previously held a one-year internship in fornt-end web development and chatbot design.
+                Moreover, based on my interest in daily life issue, I developed few projects to solve the problems.
+                With those professional experiences, I'm now hoping to bring all these skills together to another stage of learning in HCI or Data Science field.
             </p>
               <p>
-                Here's a list of technologies I've been working with recently:
+                Here's a list of technologies I've been working with :
             </p>
             </div>
             <div className="about-components">
@@ -37,19 +34,19 @@ export default class About extends Component {
                   <li>Python</li>
                   <li>JavaScript</li>
                   <li>Java</li>
-                  <li>C/C++</li>
+                  <li>HTML/CSS</li>
                 </ul>
                 <ul>
-                  <li>Node.js</li>
-                  <li>React</li>
-                  <li>HTML/CSS</li>
-                  <li>.NET Core (C#)</li>
+                  <li>Ruby</li>
+                  <li>Ruby on Rails</li>
+                  <li>Vue.js</li>
+                  <li>Laravel</li> 
                 </ul>
               </div>
               <div className="about-icons">
                 <FontAwesomeIcon icon={faPython} size="4x" />
-                <FontAwesomeIcon icon={faNodeJs} size="4x" />
-                <FontAwesomeIcon icon={faReact} size="4x" />
+                <FontAwesomeIcon icon={faSketch} size="4x" />
+                <FontAwesomeIcon icon={faVuejs} size="4x" />
                 <FontAwesomeIcon icon={faJava} size="4x" />
                 <span />
               </div>

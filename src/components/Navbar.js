@@ -97,7 +97,7 @@ export default class NavBar extends Component {
               <span />
               <span />
               <a
-                href={require("../../public/Expo-Resume.pdf")}
+                href={require("../../public/Resume_Fan-Chi_Yeh.pdf")}
                 target="_blank"
               >
                 RESUME

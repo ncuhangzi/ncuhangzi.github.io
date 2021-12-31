@@ -24,16 +24,15 @@ export default class Projects extends Component {
                     <Card>
                       <Card.Body>
                         <Card.Title>
-                          <strong>Projects with Underserved Communities</strong>
+                          <strong>Personal Outfit Recommendation System</strong>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
-                          <em>Project Manager</em>
+                          <em>Graduate Researcher</em>
                         </Card.Subtitle>
                         <hr/>
                         <Card.Text>
-                          Headed a multi-year humanitarian engineering project for
-                          a community in India. I was elected to lead a team of seven undergraduates and coordinate
-                          efforts with international stakeholders while managing a budget of $25,000.
+                        Created a recommendation system that considered users’ clothing-related general compatibility and personal 
+                        preferences with an integrated attention mechanism based on a Bayesian Personalized Ranking (BPR) algorithm.
                         </Card.Text>
                       </Card.Body>
                     </Card>
@@ -42,15 +41,14 @@ export default class Projects extends Component {
                     <Card>
                       <Card.Body>
                         <Card.Title>
-                          <strong>Human A.I. Interactions (HAI) Lab</strong>
+                          <strong>Fake News Detection Web Extension</strong>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
                           <em>Undergraduate Researcher</em>
                         </Card.Subtitle>
                         <hr/>
                         <Card.Text>
-                          Exploring the development of ethical A.I. frameworks for COVID-19 resource allocation and graduate school admissions.
-                          I'm currently creating machine learning models for predicting graduate student success in the iSchool.
+                          Devised a web extension that helps users identify fake news from web pages by applying a trained LSTM model.
                         </Card.Text>
                       </Card.Body>
                     </Card>
@@ -59,15 +57,14 @@ export default class Projects extends Component {
                     <Card>
                       <Card.Body>
                         <Card.Title>
-                          <strong>Strauss Center for International Security &amp; Law</strong>
+                          <strong>Information Management Student Association</strong>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
-                          <em>A.I. Policy Researcher</em>
+                          <em>Design group leader</em>
                         </Card.Subtitle>
                         <hr/>
                         <Card.Text>
-                          Examining policy development regarding regulation of lethal autonomous weapons systems (LAWS) in warfare.
-                          I'm drafting policy memos and presenting them to lawmakers in Washington, D.C. in the winter.
+                          Assisted in the design and layout of public spaces and activities of the department.
                         </Card.Text>
                       </Card.Body>
                     </Card>
@@ -76,55 +73,20 @@ export default class Projects extends Component {
                     <Card>
                       <Card.Body>
                         <Card.Title>
-                          <strong>TAVtech Entrepreneurship Fellowship</strong>
+                          <strong>Panfes, PanSci</strong>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
-                          <em>Data Science Fellow</em>
+                          <em>Volunteer</em>
                         </Card.Subtitle>
                         <hr/>
                         <Card.Text>
-                          Selected as a Data Science Fellow by NYU to travel to Tel Aviv, Israel to explore machine learning technologies.
-                          This culminated in a project I led for disease prevention through social media tracking and NLP techniques.
+                        An organization that focuses on inviting scientists, educators, enthusiasts in various fields to 
+                        contemplate the scientific aspects of social issues in public forums. I was responsible for the reception of invited speakers.
                         </Card.Text>
                       </Card.Body>
                     </Card>
                   </div>
-                  <div class="gradient-border">
-                    <Card>
-                      <Card.Body>
-                        <Card.Title>
-                          <strong>Texas Product Engineering (TPEO)</strong>
-                        </Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">
-                          <em>Product Manager</em>
-                        </Card.Subtitle>
-                        <hr />
-                        <Card.Text>
-                          Managing team of two engineers and a designer to create a "prehabilition" application with 
-                          the Dell Medical School. I've been coordinating with stakeholders to create features and 
-                          implementation while assisting development in React Native.
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
-                  </div>
-                  <div class="gradient-border">
-                    <Card>
-                      <Card.Body>
-                        <Card.Title>
-                          <strong>Humanitarian Engineering Committee</strong>
-                        </Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">
-                          <em>Founding Member</em>
-                        </Card.Subtitle>
-                        <hr/>
-                        <Card.Text>
-                          Establishing the Humanitarian Engineering Institute at UT Austin to 
-                          expand humanitarian engineering efforts on campus. I'm working with faculty members
-                          and peers to create phasing plans to make the Institute a reality.
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
-                  </div>
+
                 </div>
               </div>
             </div>

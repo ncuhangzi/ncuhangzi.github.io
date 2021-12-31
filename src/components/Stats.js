@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CountUp from "react-countup";
-import { faCode, faHeadSideMask, faBed, faMapPin, faPeopleCarry, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faHeadSideMask, faBed, faMapPin, faPeopleCarry, faGraduationCap, faFolder } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {PieChart} from "react-minimal-pie-chart";
 
@@ -16,23 +16,23 @@ export default class Stats extends Component {
                 <p>
                   <strong>LINES OF CODE</strong>
                 </p>
-                <CountUp start={0} end={8000} duration={1000} delay={4.5} />
+                <CountUp start={0} end={6000} duration={2000} delay={4.5} />
               </div>
             </div>
             <div className="stat">
-              <FontAwesomeIcon icon={faMapPin} />
+              <FontAwesomeIcon icon={faFolder} />
               <div className="stat-counter">
                 <p>
-                  <strong>COUNTRIES VISITED</strong>
+                  <strong>GITHUB REPOS</strong>
                 </p>
-                <CountUp start={0} end={19} duration={30} delay={4.5} />
+                <CountUp start={0} end={10} duration={5} delay={4.5} />
               </div>
             </div>
             <div className="stat">
               <FontAwesomeIcon icon={faGraduationCap} />
               <div className="stat-counter">
                 <p>
-                  <strong>NUMBER OF MAJORS</strong>
+                  <strong>NUMBER OF DEGREES</strong>
                 </p>
                 <CountUp start={0} end={2} duration={2} delay={4.5} />
               </div>

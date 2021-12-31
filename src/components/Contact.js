@@ -11,11 +11,11 @@ export default class Contact extends Component {
         <div className="container" id="contact">
           <div className="contact-container">
             <h1>CONTACT</h1>
-            <p>I'm currently seeking Data Science/Product Management opportunties for Summer 2021!
-              Feel free to send me an email at <a href="mailto:colinphillips@utexas.edu" target="_blank">colinphillips@utexas.edu</a> 
-              &nbsp; or DM me on <a href="https://www.linkedin.com/in/cphillips17" target="_blank">LinkedIn</a>. </p>
+            <p>I'm currently seeking graduate studies opportunties for Summer 2022!
+              Feel free to contact me with email at <a href="mailto:st30201@gmail.com" target="_blank">st30201@gmail.com</a> 
+              &nbsp; or DM me on <a href="https://www.linkedin.com/in/fan-chi-yeh-a5652b141" target="_blank">LinkedIn</a>. </p>
               <br/>
-            <p><strong>&#169; Built by Colin Phillips</strong></p>
+            <p><strong>&#169; Built by Fan-Chi Yeh</strong></p>
           </div>
         </div>
       </Fade>

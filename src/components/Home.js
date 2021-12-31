@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import TextLoop from "react-text-loop";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGalacticRepublic, faPython, faNodeJs, faReact, faJava, faCss3, faCss3Alt } from "@fortawesome/free-brands-svg-icons";
-import { faLaptopCode, faRoute, faUniversity, faHandshake, faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode, faRoute, faUniversity, faHandshake, faUtensils, faRobot, faPaintBrush, faDog } from "@fortawesome/free-solid-svg-icons";
 import Stats from "../components/Stats";
 
 export default class Home extends Component{
@@ -22,29 +22,29 @@ export default class Home extends Component{
                     an Engineer <FontAwesomeIcon icon={faLaptopCode} />
                   </span>
                   <span>
-                    a Star Wars Fanatic{" "}
-                    <FontAwesomeIcon icon={faGalacticRepublic} />
+                    a Sci Fi Fan{" "}
+                    <FontAwesomeIcon icon={faRobot} />
                   </span>
                   <span>
-                    a Traveler <FontAwesomeIcon icon={faRoute} />
+                    a Designer <FontAwesomeIcon icon={faPaintBrush} />
                   </span>
                   <span>
-                    a Food Junkie <FontAwesomeIcon icon={faUtensils} />
+                    a Dog People <FontAwesomeIcon icon={faDog} />
                   </span>
                 </TextLoop>
               </h2>
               <p>
-                I'm an undergraduate studying{" "}
-                <strong>Electrical &amp; Computer Engineering (ECE) Honors and Mathematics</strong>{" "}
+                I'm an graduate student studying{" "}
+                <strong>Information Management</strong>{" "}
                 at the{" "}
-                <strong>University of Texas at Austin</strong>
-                . I dabble in full-stack web development, human-centered A.I.,
-                product management, and humanitarian engineering!
+                <strong>National Central University</strong>
+                . I am interested in web development, human-centered data science,
+                HCI, and UI/UX design!
               </p>
             </div>
             <div class="gradient-border hvr-bounce-in">
               <img
-                src={require("../../static/new-profile-pic.jpg")}
+                src={require("../../static/new-profile-pic.jpeg")}
                 alt="profile-pic"
               ></img>
             </div>
