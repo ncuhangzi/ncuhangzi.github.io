@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Colin Phillips",
-    description: "Colin Phillips is an aspiring data scientist/PM based in Austin, TX interested in the intersection of humanitarianism and technology. He is currently studying Electrical and Computer Enigneering Honors and Mathematics at the University of Texas at Austin.",
-    author: "Colin Phillips",
+    title: "Fan-Chi Yeh",
+    description: "Fan-Chi Yeh is an aspiring data scientist and HCI enthusiastic currently studying Information Management at the National Central University.",
+    author: "Fan-Chi Yeh",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

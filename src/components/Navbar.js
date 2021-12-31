@@ -53,12 +53,12 @@ export default class NavBar extends Component {
                 WORK
               </Link>
             </div>
-            <div className="navigation-image">
+            {/* <div className="navigation-image">
               <a href="#">
                 <p>BUILT BY</p>
                 <img src={require("../../static/new-logo.png")} alt="logo" />
               </a>
-            </div>
+            </div> */}
             <div className="navigation-link">
               <span />
               <span />
