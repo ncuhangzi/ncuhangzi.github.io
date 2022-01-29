@@ -10,9 +10,9 @@ export default class Home extends Component{
         return (
           <div className="container" id="home">
             <div className="top-container">
-              <p>HI THERE! MY NAME IS</p>
+              <p>HELLO! MY NAME IS</p>
               <h1>Fan-Chi Yeh</h1>
-              <h2 className="other">
+              {/* <h2 className="other">
                 I'm <span> </span>
                 <TextLoop springConfig={{ stiffness: 180, damping: 8 }}>
                   <span>
@@ -31,8 +31,8 @@ export default class Home extends Component{
                   <span>
                     a Dog People <FontAwesomeIcon icon={faDog} />
                   </span>
-                </TextLoop>
-              </h2>
+                </TextLoop> 
+              </h2> */}
               <p>
                 I'm an graduate student studying{" "}
                 <strong>Information Management</strong>{" "}

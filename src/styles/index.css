@@ -8,8 +8,8 @@
 
 body{
     font-family: 'Kanit', sans-serif;
-    background-color: white;
-    color: #233D63;
+    background-color: #330080;
+    color: white;
 }
 
 .loading {
@@ -28,7 +28,7 @@ body{
 .loading .obj {
     width: 6px;
     height: 0px;
-    background: #233D63;
+    background: #944dff;
     margin: 0 3px;
     border-radius: 10px;
     animation: loading 0.8s linear 2; 
@@ -146,7 +146,7 @@ body{
     font-size: 0.6em;
     font-weight: bolder;
     letter-spacing: 3px;
-    color: #233D63;
+    color: #ff8533;
 }
 
 .navigation-bar .navigation-image a:hover{
@@ -155,7 +155,7 @@ body{
 
 .navigation-link a {
     text-decoration: none;
-    color: #233D63;
+    color: #ff8533;
 }
 
 .navigation-link a:hover {
@@ -178,7 +178,7 @@ body{
     left: 100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #2196f3);
+    background: linear-gradient(270deg, transparent, #ff8533);
 }
 
 .navigation-link:hover span:nth-child(1){
@@ -192,7 +192,7 @@ body{
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
+    background: linear-gradient(90deg, transparent, #ff8533);
 }
 
 .navigation-link:hover span:nth-child(3){
@@ -205,7 +205,7 @@ body{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #2196f3);
+    background: linear-gradient(180deg, transparent, #ff8533);
 }
 
 .navigation-link:hover span:nth-child(2){
@@ -219,7 +219,7 @@ body{
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #2196f3);
+    background: linear-gradient(180deg, transparent, #ff8533);
 }
 
 .navigation-link:hover span:nth-child(4){
@@ -284,17 +284,17 @@ body{
 .vertical-line{
     width: 1px;
     height: 150px;
-    border-right: solid #233D63 2px;
+    border-right: solid white 2px;
 }
 
 .btn-group-vertical a {
     margin-bottom: 20px;
-    color: #233D63;
+    color: white;
     position: relative;
 }
 
 .btn-group-vertical a:hover {
-    color: #2196f3;
+    color: #ff8533;
     transition: 0.3s;
     transform: translateY(-3px);
 }
@@ -333,12 +333,12 @@ body{
     letter-spacing: 2px;
     margin-bottom: 2px;
     font-weight: bold;
-    font-size: 0.8em;
-    color: #2196f3;
+    font-size: 2em;
+    color: #ff8533;
 }
 
 .top-container strong{
-    color: #2196f3;
+    color: #ff8533;
 }
 
 .top-container h1{
@@ -387,10 +387,10 @@ body{
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background: linear-gradient(60deg,  #a166ab);
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
-  animation: animatedgradient 3s ease alternate infinite;
+  /* animation: animatedgradient 3s ease alternate infinite; */
   background-size: 300% 300%;
 }
 
@@ -539,7 +539,7 @@ body{
 
 .scroll-button:hover {
     cursor: pointer;
-    color: #2196f3;
+    color: #ff8533;
     transition: 0.3s;
     transform: translateY(-3px);
 }
@@ -618,7 +618,7 @@ body{
 
 .about-icons svg {
     margin: 10px;
-    color: #2196f3;
+    color: #ff8533;
     
 }
 
@@ -630,7 +630,7 @@ body{
     left: -50%;
     text-align: center;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
+    background: linear-gradient(90deg, transparent, #ff8533);
     animation: pulse 4s ease-in infinite; 
 }
 
@@ -710,9 +710,9 @@ body{
 }
 
 .nav-pills .nav-link.active {
-    color: #233D63;
-    background-color: white;
-    border-left: solid #2196f3 6px; 
+    color: white;
+    background-color: #330080;
+    border-left: solid #ff8533 6px; 
     letter-spacing: 2px;
     font-weight: bold;
     border-radius: 0;
@@ -723,8 +723,8 @@ body{
 }
 
 .nav-pills .nav-link{
-    color: #233D63;
-    background-color: white;
+    color: white;
+    background-color: #330080;
     letter-spacing: 2px;
     border-radius: 0;
     transition: 0.2s;
@@ -739,7 +739,7 @@ body{
 
 .nav-pills .nav-link:hover{
     font-weight: bold;
-    color: #233D63;
+    color: #ff8533;
 }
 
 .nav-pills .nav-link div{
@@ -785,7 +785,7 @@ body{
 .work-contents .descriptions .inner div svg{
     margin-right: 20px;
     font-size: 1.5em;
-    color: #2196f3;
+    color: #ff8533;
 }
 
 .work-contents .descriptions .inner div p {
@@ -912,7 +912,7 @@ body{
 .stat p {
     letter-spacing: 2px;
     margin-bottom: 0px;
-    color: #A5B0BF;
+    color: #dddfe2;
     text-align: center;
 }
 
@@ -1011,6 +1011,7 @@ body{
 .card {
     width: 100%;
     border: none;
+    background: #330080;
 }
 
 .card .card-title{
@@ -1033,7 +1034,7 @@ body{
 
 .projects-grid .gradient-border {
     --borderWidth: 3px;
-    background: white;
+    background: #330080;
     position: relative;
     border-radius: var(--borderWidth);
     width: 30%;
@@ -1052,7 +1053,7 @@ body{
     left: calc(-1 * var(--borderWidth));
     height: calc(100% + var(--borderWidth) * 2);
     width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background:  white;
     border-radius: calc(2 * var(--borderWidth));
     z-index: -1;
     animation: animatedgradient 3s ease alternate infinite;
