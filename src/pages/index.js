@@ -18,7 +18,7 @@ import "../styles/index.css";
 export default function Application() {
   return (
     <div className="app">
-      <SEO title={"IM"} />
+      <SEO title={"IS"} />
       <div className="loading">
         <div className="obj"></div>
         <div className="obj"></div>

@@ -1012,6 +1012,16 @@ body{
     width: 100%;
     border: none;
     background: #330080;
+    transition: background-color 0.4s ease-in-out;
+
+}
+
+.card:hover {
+    box-shadow: rgba(0,0,0,0.73);
+    transition: all 0.4s ease;
+    /*background: linear-gradient(0.18turn,#ff8533, #330080); */
+    background: #6b31c2de
+    
 }
 
 .card .card-title{
@@ -1029,7 +1039,7 @@ body{
 }
 
 .card-text {
-    height: 168px;
+    height: 260px;
 }
 
 .projects-grid .gradient-border {

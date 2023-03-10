@@ -35,11 +35,11 @@ export default class Home extends Component{
               </h2> */}
               <p>
                 I'm an graduate student studying{" "}
-                <strong>Information Management</strong>{" "}
-                at the{" "}
-                <strong>National Central University</strong>
+                <strong>Information Systems</strong>{" "}
+                at {" "}
+                <strong>Northeastern University</strong>
                 . I am interested in web development, human-centered data science,
-                HCI, and UI/UX design!
+                agile software development, and UI/UX design!
               </p>
             </div>
             <div class="gradient-border hvr-bounce-in">

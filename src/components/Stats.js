@@ -16,7 +16,7 @@ export default class Stats extends Component {
                 <p>
                   <strong>LINES OF CODE</strong>
                 </p>
-                <CountUp start={0} end={6000} duration={2000} delay={4.5} />
+                <CountUp start={0} end={6000} duration={200} delay={4.5} />
               </div>
             </div>
             <div className="stat">

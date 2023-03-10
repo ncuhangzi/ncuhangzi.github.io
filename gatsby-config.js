@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Fan-Chi Yeh",
-    description: "Fan-Chi Yeh is an aspiring data scientist and HCI enthusiastic currently studying Information Management at the National Central University.",
+    description: "Fan-Chi Yeh is an aspiring Front-End engineer and data scientist enthusiastic currently studying Information Systems at the Northeastern University.",
     author: "Fan-Chi Yeh",
   },
   //https://github.com/ncuhangzi/ncuhangzi.github.io.git

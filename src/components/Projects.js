@@ -21,10 +21,11 @@ export default class Projects extends Component {
                 <h1>PROJECTS &amp; EXPERIENCE</h1>
                 <div className="projects-grid">
                   <div class="gradient-border">
-                    <Card>
+                  <a style={{ cursor: 'pointer' }} href="https://github.com/ncuhangzi/GPA-BPR" onClick={"https://github.com/ncuhangzi/GPA-BPR"} target="_blank">                   
+                    <Card text={'white'}>
                       <Card.Body>
                         <Card.Title>
-                          <strong>Personal Outfit Recommendation System</strong>
+                          <strong>Personal Outfit Recommendation System(GPA-BPR)</strong>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
                           <em>Graduate Researcher</em>
@@ -32,13 +33,36 @@ export default class Projects extends Component {
                         <hr/>
                         <Card.Text>
                         Created a recommendation system that considered users’ clothing-related general compatibility and personal 
-                        preferences with an integrated attention mechanism based on a Bayesian Personalized Ranking (BPR) algorithm.
+                        preferences with an integrated co-attention mechanism based on a Bayesian Personalized Ranking (BPR) algorithm. 
+                        Leveraging Meta-path based context for personal outfit recommendation with co-Attention mechanism. The result is better than the state of the art's 0.03 in AUC. 
                         </Card.Text>
-                      </Card.Body>
+                      </Card.Body>  
                     </Card>
+                    </a>
                   </div>
                   <div class="gradient-border">
-                    <Card>
+                  <a style={{ cursor: 'pointer' }} href="https://github.com/ncuhangzi/weather_system_client" onClick={"https://github.com/ncuhangzi/weather_system_client"} target="_blank">                   
+                    <Card text={'white'}>
+                      <Card.Body>
+                        <Card.Title>
+                          <strong>Global Tourist Spots Weather System</strong>
+                        </Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">
+                          <em>Graduate Researcher</em>
+                        </Card.Subtitle>
+                        <hr/>
+                        <Card.Text>
+                        This project is a collection of all the famous tourist spots presented in a map view. Users can view the introduction and weather information for each spot. 
+                        It adopts a Frontend-Backend Separation development approach, where the front-end is developed using Vue.js and the back-end is built on the Laravel framework. 
+                        Weather data is obtained from a Weather API.
+                        </Card.Text>
+                      </Card.Body>  
+                    </Card>
+                    </a>
+                  </div>
+                  <div class="gradient-border">
+                  <a style={{ cursor: 'pointer' }} href={require("../../public/Fakenews_Extension.pdf")} target="_blank">
+                    <Card text={'white'}>
                       <Card.Body>
                         <Card.Title>
                           <strong>Fake News Detection Web Extension</strong>
@@ -52,6 +76,7 @@ export default class Projects extends Component {
                         </Card.Text>
                       </Card.Body>
                     </Card>
+                    </a>
                   </div>
                   <div class="gradient-border">
                     <Card>
