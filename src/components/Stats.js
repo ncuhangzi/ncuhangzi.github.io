@@ -34,7 +34,7 @@ export default class Stats extends Component {
                 <p>
                   <strong>NUMBER OF DEGREES</strong>
                 </p>
-                <CountUp start={0} end={2} duration={2} delay={4.5} />
+                <CountUp start={0} end={3} duration={5} delay={4.5} />
               </div>
             </div>
           </div>

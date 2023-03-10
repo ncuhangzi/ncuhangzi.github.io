@@ -34,7 +34,7 @@ export default class Home extends Component{
                 </TextLoop> 
               </h2> */}
               <p>
-                I'm an graduate student studying{" "}
+                I'm a graduate student studying{" "}
                 <strong>Information Systems</strong>{" "}
                 at {" "}
                 <strong>Northeastern University</strong>
