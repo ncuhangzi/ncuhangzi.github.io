@@ -21,9 +21,9 @@ export default class Projects extends Component {
                 <h1>PROJECTS &amp; EXPERIENCE</h1>
                 <div className="projects-grid">
                   <div class="gradient-border">
+                    <Card >
                   <a style={{ cursor: 'pointer' }} href="https://github.com/ncuhangzi/GPA-BPR" onClick={"https://github.com/ncuhangzi/GPA-BPR"} target="_blank">                   
-                    <Card text={'white'}>
-                      <Card.Body>
+                      <Card.Body text={'white'}>
                         <Card.Title>
                           <strong>Personal Outfit Recommendation System(GPA-BPR)</strong>
                         </Card.Title>
@@ -37,8 +37,8 @@ export default class Projects extends Component {
                         Leveraging Meta-path based context for personal outfit recommendation with co-Attention mechanism. The result is better than the state of the art's 0.03 in AUC. 
                         </Card.Text>
                       </Card.Body>  
-                    </Card>
                     </a>
+                    </Card>
                   </div>
                   <div class="gradient-border">
                   <a style={{ cursor: 'pointer' }} href="https://github.com/ncuhangzi/weather_system_client" onClick={"https://github.com/ncuhangzi/weather_system_client"} target="_blank">                   

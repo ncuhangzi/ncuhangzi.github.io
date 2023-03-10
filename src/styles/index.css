@@ -1028,8 +1028,11 @@ body{
     font-size: 1.75em;
     letter-spacing: 2px;
     margin-bottom: 15px;
+    color: #dddfe2;
 }
-
+.card-title{
+    color: #dddfe2;
+}
 .card-title .card-subtitle hr .card-text{
     display: none;
 }
@@ -1039,7 +1042,8 @@ body{
 }
 
 .card-text {
-    height: 260px;
+    color: #dddfe2;
+    height: 280px;
 }
 
 .projects-grid .gradient-border {
