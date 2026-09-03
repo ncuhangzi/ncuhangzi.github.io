@@ -535,6 +535,14 @@ a.item:hover .item__ext { color: var(--accent-text); transform: translate(.25em,
   color: var(--ink-2); text-wrap: pretty;
 }
 
+.item__desc code {
+  font: 400 .86em/1 var(--mono);
+  padding: .12em .35em;
+  background: var(--paper-2);
+  border: 1px solid var(--rule-soft);
+  white-space: nowrap;
+}
+
 .item__yr {
   grid-area: yr; justify-self: end;
   font: 500 .75rem/1.7 var(--mono);
