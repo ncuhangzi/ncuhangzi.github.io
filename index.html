@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fan-Chi Yeh — AI Fullstack Engineer</title>
-<meta name="description" content="Fan-Chi Yeh is an AI fullstack engineer and data scientist in Taipei, building enterprise generative-AI platforms — model inference, API routing, and observability — at Delta Electronics.">
+<title>Fan-Chi Yeh — LLM Inference &amp; Platform Engineer</title>
+<meta name="description" content="Fan-Chi Yeh works on LLM inference and serving at Delta Electronics in Taipei: model serving with vLLM and SGLang, hardware sizing for GPU and on-device deployment, request routing, and end-to-end tracing.">
 <meta name="author" content="Fan-Chi Yeh">
 <link rel="canonical" href="https://ncuhangzi.github.io/">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ncuhangzi.github.io/">
-<meta property="og:title" content="Fan-Chi Yeh — AI Fullstack Engineer">
-<meta property="og:description" content="Building enterprise generative-AI platforms — inference, routing, observability — at Delta Electronics.">
+<meta property="og:title" content="Fan-Chi Yeh — LLM Inference &amp; Platform Engineer">
+<meta property="og:description" content="LLM inference and serving: model deployment, hardware sizing, routing and tracing. Data Scientist at Delta Electronics, Taipei.">
 <meta property="og:image" content="https://ncuhangzi.github.io/assets/img/portrait.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -41,7 +41,9 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Fan-Chi Yeh",
-  "jobTitle": "Data Scientist / AI Fullstack Engineer",
+  "jobTitle": "Data Scientist",
+  "description": "LLM inference and platform engineer working on model serving, hardware sizing, request routing and observability.",
+  "knowsAbout": ["LLM inference", "Model serving", "vLLM", "SGLang", "LLM observability", "OpenTelemetry", "Kubernetes"],
   "email": "mailto:st30201@gmail.com",
   "url": "https://ncuhangzi.github.io/",
   "image": "https://ncuhangzi.github.io/assets/img/portrait.jpg",
@@ -76,6 +78,7 @@
     <a href="#experience"><b>02</b> <span class="txt">Experience</span></a>
     <a href="#work"><b>03</b> <span class="txt">Work</span></a>
     <a href="#capabilities"><b>04</b> <span class="txt">Stack</span></a>
+    <a href="#credentials"><b>05</b> <span class="txt">Credentials</span></a>
     <a href="#contact"><b>06</b> <span class="txt">Contact</span></a>
   </nav>
   <button class="toggle" type="button" id="theme-toggle" aria-label="Switch colour theme" aria-pressed="false">
@@ -90,7 +93,7 @@
   <section class="hero" aria-labelledby="hero-name">
     <div class="hero__meta">
       <span class="tag">00 / Index</span>
-      <span class="tag tag--live"><i aria-hidden="true"></i>Taipei, Taiwan — open to conversations</span>
+      <span class="tag tag--live"><i aria-hidden="true"></i>Taipei, Taiwan · open to conversations</span>
     </div>
 
     <h1 class="hero__name" id="hero-name">
@@ -99,22 +102,22 @@
     </h1>
 
     <p class="hero__role">
-      <span>AI&nbsp;Fullstack&nbsp;Engineer</span>
+      <span>LLM&nbsp;Inference</span>
       <em>&amp;</em>
-      <span>Data&nbsp;Scientist</span>
+      <span>Platform&nbsp;Engineering</span>
     </p>
 
     <div class="hero__body">
       <div class="hero__lede">
         <p class="lede">
-          I build the layer between large language models and the people who use
-          them&nbsp;— inference, routing, authentication, auditing and
-          observability — so that product teams can ship AI features without
-          reinventing the platform underneath.
+          I work on the serving side of large language models. Which model, on
+          which hardware, at what throughput and latency. What breaks when real
+          traffic shows up. Most of my time goes to inference, routing and
+          tracing, not to training runs.
         </p>
         <p class="hero__now">
-          Currently a <b>Data Scientist</b> at <b>Delta Electronics</b>, designing
-          and operating an enterprise generative-AI service platform.
+          Currently a <b>Data Scientist</b> at <b>Delta Electronics</b>, running
+          inference and observability for the internal LLM platform.
         </p>
         <div class="hero__cta">
           <a class="btn btn--solid" href="assets/Resume_Fan-Chi_Yeh.pdf" target="_blank" rel="noopener">
@@ -140,8 +143,8 @@
 
     <dl class="specs">
       <div><dt>Degrees held</dt><dd><span class="num" data-count="3">3</span></dd></div>
+      <div><dt>Params run on-device</dt><dd><span class="num" data-count="120">120</span><span class="unit">B</span></dd></div>
       <div><dt>Reviews analysed</dt><dd><span class="num" data-count="320">320</span><span class="unit">K+</span></dd></div>
-      <div><dt>Users served at LINE</dt><dd><span class="num" data-count="100">100</span><span class="unit">K+</span></dd></div>
       <div><dt>Years shipping software</dt><dd><span class="num" data-count="7">7</span><span class="unit">+</span></dd></div>
     </dl>
   </section>
@@ -150,16 +153,16 @@
   <div class="ticker" aria-hidden="true">
     <div class="ticker__track">
       <span class="ticker__set">
-        Python <i>·</i> vLLM <i>·</i> SGLang <i>·</i> LangGraph <i>·</i> LangChain <i>·</i> Langfuse <i>·</i>
-        OpenTelemetry <i>·</i> Prometheus <i>·</i> Grafana <i>·</i> Kubernetes <i>·</i> Docker <i>·</i> AWS <i>·</i>
-        React <i>·</i> Vue.js <i>·</i> Flask <i>·</i> PostgreSQL <i>·</i> ClickHouse <i>·</i> Redis <i>·</i> MinIO <i>·</i>
-        Unsloth <i>·</i> LLaMA-Factory <i>·</i> LiteLLM <i>·</i>
+        vLLM <i>·</i> SGLang <i>·</i> LiteLLM <i>·</i> Hugging Face TRL <i>·</i> Unsloth <i>·</i> DeepSpeed <i>·</i>
+        LLaMA-Factory <i>·</i> Langfuse <i>·</i> OpenTelemetry <i>·</i> Prometheus <i>·</i> Grafana <i>·</i>
+        Kubernetes <i>·</i> Docker <i>·</i> AWS <i>·</i> Python <i>·</i> PyTorch <i>·</i> LangGraph <i>·</i> MCP <i>·</i>
+        Flask <i>·</i> Gradio <i>·</i> PostgreSQL <i>·</i> ClickHouse <i>·</i> Redis <i>·</i> MinIO <i>·</i>
       </span>
       <span class="ticker__set">
-        Python <i>·</i> vLLM <i>·</i> SGLang <i>·</i> LangGraph <i>·</i> LangChain <i>·</i> Langfuse <i>·</i>
-        OpenTelemetry <i>·</i> Prometheus <i>·</i> Grafana <i>·</i> Kubernetes <i>·</i> Docker <i>·</i> AWS <i>·</i>
-        React <i>·</i> Vue.js <i>·</i> Flask <i>·</i> PostgreSQL <i>·</i> ClickHouse <i>·</i> Redis <i>·</i> MinIO <i>·</i>
-        Unsloth <i>·</i> LLaMA-Factory <i>·</i> LiteLLM <i>·</i>
+        vLLM <i>·</i> SGLang <i>·</i> LiteLLM <i>·</i> Hugging Face TRL <i>·</i> Unsloth <i>·</i> DeepSpeed <i>·</i>
+        LLaMA-Factory <i>·</i> Langfuse <i>·</i> OpenTelemetry <i>·</i> Prometheus <i>·</i> Grafana <i>·</i>
+        Kubernetes <i>·</i> Docker <i>·</i> AWS <i>·</i> Python <i>·</i> PyTorch <i>·</i> LangGraph <i>·</i> MCP <i>·</i>
+        Flask <i>·</i> Gradio <i>·</i> PostgreSQL <i>·</i> ClickHouse <i>·</i> Redis <i>·</i> MinIO <i>·</i>
       </span>
     </div>
   </div>
@@ -168,37 +171,38 @@
   <section class="sect" id="profile" aria-labelledby="profile-h">
     <div class="sect__head">
       <span class="tag">01 / Profile</span>
-      <h2 class="sect__title" id="profile-h">Platforms,<br>not demos.</h2>
+      <h2 class="sect__title" id="profile-h">The<br>serving layer.</h2>
     </div>
     <div class="sect__body prose reveal">
       <p class="drop">
-        Building a generative AI prototype can take an afternoon. Making one
-        serve a thousand colleagues, withstand audit scrutiny, and hold up under
-        a finance review is a different discipline — and it is the one I have
-        spent the past several years practicing.
+        Getting a language model to answer once is easy. Keeping it answering for
+        a whole company, at a latency people will tolerate and on hardware
+        someone has to pay for, is a different job. That second one is mine.
       </p>
       <p>
-        My route here was sideways: information management at
-        <b>National Central University</b>, a master's thesis on multimodal
-        recommendation, and then a second master's in information systems at
-        <b>Northeastern University</b> in Boston. Somewhere between research and
-        shipping real systems, I found the part of the work I enjoy most — the
-        unglamorous middle layer where models meet real traffic, infrastructure,
-        governance, and users.
+        I came at this from information management rather than systems: two
+        degrees at <b>National Central University</b>, a master's thesis on
+        multimodal recommendation, then a second master's in information systems
+        at <b>Northeastern University</b>. Research taught me to read a model's
+        numbers. Consulting taught me what those numbers cost in GPU hours.
       </p>
       <p>
-        Today, that means sizing GPU hardware and inference architectures,
-        routing requests across models, instrumenting services with
-        <b>Langfuse</b> and <b>OpenTelemetry</b>, and tracing requests end to end
-        to understand which model, prompt, or tool call actually delivers value.
-        Before that, I built and ran fine-tuning proofs of concept for healthcare
-        and financial clients, then translated the results for audiences ranging
-        from engineers to executives.
+        At <b>Taiwan Web Service</b> I sized and deployed vLLM inference
+        services, working out which model and which machine a client's workload
+        actually needed. At <b>Delta</b> I do that for one large company instead
+        of many: hardware sizing, inference architecture, routing across models,
+        and enough tracing through <b>Langfuse</b> and <b>OpenTelemetry</b> to
+        tell which model, prompt or tool call is doing the work.
       </p>
       <p>
-        I care about the seam between application design and infrastructure. A
-        platform that cannot be understood, observed, or explained is difficult
-        to operate — and even harder to trust.
+        One of the more interesting things I have deployed recently is
+        gpt-oss-120b on a laptop: an HP ZBook Ultra G1a with an AMD Ryzen AI
+        Max+ PRO 395. 120 billion parameters, no data centre.
+      </p>
+      <p>
+        The part I care about is whether you can see inside a running system.
+        Without traces you are guessing, and with LLMs you are guessing about
+        something that changes every time you swap a model.
       </p>
     </div>
   </section>
@@ -207,7 +211,7 @@
   <section class="sect" id="experience" aria-labelledby="exp-h">
     <div class="sect__head">
       <span class="tag">02 / Experience</span>
-      <h2 class="sect__title" id="exp-h">Where<br>I've built.</h2>
+      <h2 class="sect__title" id="exp-h">Where<br>I've worked.</h2>
     </div>
 
     <ol class="roles sect__body">
@@ -220,10 +224,11 @@
           <h3 class="role__org">Delta Electronics</h3>
           <p class="role__title">Data Scientist</p>
           <ul class="role__pts">
-            <li>Design and operate an enterprise generative-AI and LLM service platform spanning model inference, API routing, authentication, usage auditing, user feedback and service monitoring — letting business units build AI applications on shared rails.</li>
-            <li>Helped stand up the internal LLM platform, owning hardware sizing and inference architecture design to lift both operational and developer efficiency.</li>
-            <li>Built the observability and continuous-improvement loop with Langfuse, OpenTelemetry, Prometheus and Grafana — tracking request patterns, model latency, tool-calling success rates, agent skill execution and user feedback, then feeding findings back into model and deployment choices.</li>
-            <li>Contributed to an internal coding harness and custom MCP servers with end-to-end tracing and record propagation.</li>
+            <li>Design and operate an enterprise generative-AI and LLM service platform covering model inference, API routing, authentication, usage auditing, user feedback and service monitoring. Business units build their AI applications on it, and use its agent harnesses to move faster.</li>
+            <li>Helped build the internal LLM platform, owning hardware sizing and inference architecture design for enterprise AI workloads.</li>
+            <li>Set up the observability and continuous-improvement workflow with Langfuse, OpenTelemetry, Prometheus and Grafana, tracking request patterns, model latency, tool-calling success rates, agent skill execution and user feedback. What it shows feeds back into which models we run and how we deploy them.</li>
+            <li>Contributed to an internal coding harness and custom MCP servers, implementing end-to-end tracing and record propagation.</li>
+            <li>Deployed gpt-oss-120b on an HP ZBook Ultra G1a powered by an AMD Ryzen AI Max+ PRO 395, running a 120B model entirely on-device.</li>
           </ul>
           <p class="role__tags"><span>vLLM</span><span>Langfuse</span><span>OpenTelemetry</span><span>Kubernetes</span><span>MCP</span></p>
         </div>
@@ -238,12 +243,12 @@
           <h3 class="role__org">Taiwan Web Service Corp.</h3>
           <p class="role__title">AI Consultant Engineer</p>
           <ul class="role__pts">
-            <li>Designed and deployed vLLM-based inference services; analysed model requirements and throughput to recommend models, hardware and system architectures per client use case.</li>
-            <li>Led LLM fine-tuning POCs across healthcare and financial services using Hugging&nbsp;Face TRL, Unsloth, DeepSpeed and LLaMA-Factory for SFT and LoRA — with tensor parallelism, pipeline parallelism and gradient checkpointing.</li>
-            <li>Authored training and installation documentation that shortened internal and client deployment of generative-AI services on the company cloud.</li>
-            <li>Delivered internal training and external technical seminars on LLMs, model deployment and cloud AI architecture, for technical and non-technical rooms alike.</li>
+            <li>Designed and deployed vLLM-based inference services. Analysed workload requirements and throughput to advise clients on model selection, hardware sizing and system architecture.</li>
+            <li>Led LLM fine-tuning POCs across healthcare and financial services, using Hugging&nbsp;Face TRL, Unsloth, DeepSpeed and LLaMA-Factory for SFT and LoRA with tensor parallelism, pipeline parallelism and gradient checkpointing.</li>
+            <li>Wrote the model-training and installation documentation that sped up deployment of generative-AI services on the company cloud, internally and for clients.</li>
+            <li>Ran internal training and external technical seminars on LLMs, model deployment and cloud AI architecture, for technical and non-technical audiences.</li>
           </ul>
-          <p class="role__tags"><span>Unsloth</span><span>LLaMA-Factory</span><span>DeepSpeed</span><span>LoRA</span></p>
+          <p class="role__tags"><span>vLLM</span><span>Unsloth</span><span>LLaMA-Factory</span><span>DeepSpeed</span><span>LoRA</span></p>
         </div>
       </li>
 
@@ -256,9 +261,9 @@
           <h3 class="role__org">Data Science &amp; Intelligent Healthcare Lab, NCU</h3>
           <p class="role__title">Research Assistant</p>
           <ul class="role__pts">
-            <li>Analysed 320,000+ Yelp restaurant reviews with Word2Vec, Doc2Vec and BERT; built text-processing and feature-analysis pipelines to characterise fine-dining reviews.</li>
-            <li>Applied vector representations and cosine similarity at scale to surface the twenty most fine-dining-adjacent affordable restaurants.</li>
-            <li>Partnered with Dunqian Hotel Management Group on large-scale collection, including automated scraping of major OTA sites.</li>
+            <li>Analysed 320,000+ Yelp restaurant reviews with Word2Vec, Doc2Vec and BERT; built text-processing and feature-analysis pipelines to identify what characterises fine-dining reviews.</li>
+            <li>Built a recommendation algorithm on vector representations and cosine similarity that picked out the twenty affordable restaurants most associated with fine dining.</li>
+            <li>Partnered with Dunqian Hotel Management Group on large-scale data collection, including automated scraping of major online travel agency sites.</li>
           </ul>
           <p class="role__tags"><span>BERT</span><span>Word2Vec</span><span>PyTorch</span></p>
         </div>
@@ -296,7 +301,7 @@
           <span class="item__no">01</span>
           <div class="item__main">
             <h3 class="item__name">Enterprise LLM Service Platform</h3>
-            <p class="item__desc">A shared inference and governance layer for an organisation of engineers: model serving, API routing, auth, quota and usage auditing, feedback capture, and a tracing spine that follows a request from the gateway through every agent tool call.</p>
+            <p class="item__desc">The shared inference layer a whole company builds on: model serving, API routing, auth, quota and usage auditing, feedback capture, and tracing that follows one request from the gateway through every agent tool call.</p>
           </div>
           <span class="item__yr">2025</span>
           <span class="item__tags">vLLM · LiteLLM · Langfuse · OTel</span>
@@ -308,7 +313,7 @@
           <span class="item__no">02</span>
           <div class="item__main">
             <h3 class="item__name">GPA-BPR — Personalised Outfit Recommendation <span class="item__ext" aria-hidden="true">↗</span></h3>
-            <p class="item__desc">Master's thesis. A multimodal recommender that weighs visual compatibility against personal styling taste, using meta-paths for individual preference and a co-attention mechanism over Bayesian Personalised Ranking. Beat the then state of the art by ~0.03 AUC.</p>
+            <p class="item__desc">Master's thesis. A multimodal recommender that weighs visual compatibility against personal styling taste, using meta-paths to model individual preference and co-attention over Bayesian Personalised Ranking. About 0.03 AUC better than the state of the art at the time.</p>
           </div>
           <span class="item__yr">2022</span>
           <span class="item__tags">PyTorch · Keras · NumPy</span>
@@ -320,7 +325,7 @@
           <span class="item__no">03</span>
           <div class="item__main">
             <h3 class="item__name">Dexter Skill — Agentic Financial Research <span class="item__ext" aria-hidden="true">↗</span></h3>
-            <p class="item__desc">A drop-in agent skill that gives any coding harness autonomous financial research. Extends the upstream Dexter agent with Taiwan market coverage (TWSE/TPEx via FinMind — institutional flows, margin trading, dividends, quarterly statements) and adds Codex OAuth so a ChatGPT subscription stands in for API tokens. One <code>npx skills add</code> installs it across ~50 agents.</p>
+            <p class="item__desc">A drop-in agent skill that gives any coding harness autonomous financial research. Extends the upstream Dexter agent with Taiwan market coverage (TWSE/TPEx via FinMind: institutional flows, margin trading, dividends, quarterly statements) and adds Codex OAuth so a ChatGPT subscription stands in for API tokens. One <code>npx skills add</code> installs it across ~50 agents.</p>
           </div>
           <span class="item__yr">2026</span>
           <span class="item__tags">Agent skills · FinMind · MCP</span>
@@ -332,7 +337,7 @@
           <span class="item__no">04</span>
           <div class="item__main">
             <h3 class="item__name">Global Tourist Spots Weather System <span class="item__ext" aria-hidden="true">↗</span></h3>
-            <p class="item__desc">Famous destinations on a single map view, each with an introduction and live weather. Front-end/back-end separated — Vue.js against a Laravel API pulling from a weather service.</p>
+            <p class="item__desc">Famous destinations on a single map view, each with an introduction and live weather. Front-end and back-end are separate: Vue.js against a Laravel API that pulls from a weather service.</p>
           </div>
           <span class="item__yr">2021</span>
           <span class="item__tags">Vue.js · Laravel · REST</span>
@@ -366,20 +371,20 @@
 
     <dl class="stack sect__body">
       <div class="stack__row reveal">
-        <dt>Languages</dt>
-        <dd>Python <i>·</i> Java <i>·</i> JavaScript <i>·</i> SQL <i>·</i> Shell <i>·</i> HTML5/CSS</dd>
+        <dt>Inference &amp; serving</dt>
+        <dd>vLLM <i>·</i> SGLang <i>·</i> LiteLLM <i>·</i> GPU and on-device deployment</dd>
       </div>
       <div class="stack__row reveal">
-        <dt>Front &amp; back end</dt>
-        <dd>Vue.js <i>·</i> React <i>·</i> Flask <i>·</i> REST APIs <i>·</i> Gradio</dd>
-      </div>
-      <div class="stack__row reveal">
-        <dt>Generative AI / LLM</dt>
-        <dd>LangChain <i>·</i> LangGraph <i>·</i> Google ADK <i>·</i> vLLM <i>·</i> SGLang <i>·</i> LiteLLM <i>·</i> Unsloth <i>·</i> LLaMA-Factory</dd>
+        <dt>Fine-tuning</dt>
+        <dd>Hugging&nbsp;Face TRL <i>·</i> Unsloth <i>·</i> DeepSpeed <i>·</i> LLaMA-Factory <i>·</i> SFT <i>·</i> LoRA</dd>
       </div>
       <div class="stack__row reveal">
         <dt>Observability &amp; governance</dt>
         <dd>Langfuse <i>·</i> OpenTelemetry <i>·</i> Prometheus <i>·</i> Grafana <i>·</i> Microsoft AGT</dd>
+      </div>
+      <div class="stack__row reveal">
+        <dt>Agents &amp; orchestration</dt>
+        <dd>LangChain <i>·</i> LangGraph <i>·</i> Google ADK <i>·</i> MCP</dd>
       </div>
       <div class="stack__row reveal">
         <dt>Cloud &amp; DevOps</dt>
@@ -388,6 +393,14 @@
       <div class="stack__row reveal">
         <dt>Data &amp; infrastructure</dt>
         <dd>PostgreSQL <i>·</i> ClickHouse <i>·</i> Redis <i>·</i> MinIO</dd>
+      </div>
+      <div class="stack__row reveal">
+        <dt>Languages</dt>
+        <dd>Python <i>·</i> Java <i>·</i> JavaScript <i>·</i> SQL <i>·</i> Shell <i>·</i> HTML5/CSS</dd>
+      </div>
+      <div class="stack__row reveal">
+        <dt>Application layer</dt>
+        <dd>PyTorch <i>·</i> Keras <i>·</i> Flask <i>·</i> REST APIs <i>·</i> Gradio <i>·</i> Vue.js <i>·</i> React</dd>
       </div>
     </dl>
   </section>
@@ -452,8 +465,8 @@
     <span class="tag">06 / Contact</span>
     <h2 class="contact__h" id="contact-h">Let's talk.</h2>
     <p class="contact__note">
-      Open to conversations about AI platform engineering, LLM infrastructure and
-      applied research. The fastest route is email.
+      Happy to talk about inference, LLM serving and platform work. Email is the
+      fastest way to reach me.
     </p>
     <a class="contact__mail" href="mailto:st30201@gmail.com">st30201@gmail.com</a>
     <ul class="contact__links">

@@ -187,9 +187,10 @@ main, .masthead, .colophon { position: relative; z-index: 1; }
 .masthead__nav a:hover::after,
 .masthead__nav a.is-current::after { right: 0; }
 
-/* Below 780px the labels are dropped and the nav collapses to its numerals,
-   which stay tappable without crowding the masthead. */
-@media (max-width: 780px) {
+/* Below 900px the labels are dropped and the nav collapses to its numerals,
+   which stay tappable without crowding the masthead. Six sections' worth of
+   labels no longer fit beside the wordmark and the theme toggle. */
+@media (max-width: 900px) {
   .masthead { gap: 1rem; }
   .masthead__id > span:last-child { display: none; }
   .masthead__nav { gap: .25rem; }
